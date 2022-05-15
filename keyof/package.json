@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ts": "ts-node ./src/lexical_thihs_v2.ts"
+    "ts": "ts-node ./src/type-predicate.ts"
   },
   "keywords": [],
   "author": "",

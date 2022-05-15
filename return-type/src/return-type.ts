@@ -6,6 +6,7 @@ const dataBuilder = () => {
 };
 
 // dataBuilderからの戻りを型に変えることができる。
+// IDataは、{a:string, b:string} になっている。
 type IData = ReturnType<typeof dataBuilder>;
 
 const buildData = dataBuilder();

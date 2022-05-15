@@ -13,12 +13,14 @@ type Shape = Square | Rectangle;
 // これが、type-predicate。AKA: User Defined Type Guards
 function isSquare(shape: Shape): shape is Square {
   // shapeがSquareかどうかの判定基準を、自分で作ることができる。
+  // パラメータのshapeの中にsizeがあれば、Squareとみなすことができる。
   return 'size' in shape;
 }
 
 // これが、type-predicate。AKA: User Defined Type Guards
 function isRectangle(shape: Shape): shape is Rectangle {
   // shapeがSquareかどうかの判定基準を、自分で作ることができる。
+  // パラメータのshapeの中にwidthがあれば、Rectangleとみなすことができる。
   return 'width' in shape;
 }
 
