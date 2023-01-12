@@ -1,3 +1,4 @@
+// https://typescriptbook.jp/reference/values-types-variables/type-assertion-as
 const hello: unknown = 'hello';
 
 // これはcastではなく、type assertion

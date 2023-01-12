@@ -5,3 +5,4 @@ function move(direction: Direction) {
 }
 
 move('East');
+move('West');
