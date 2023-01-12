@@ -1,0 +1,15 @@
+{
+  "name": "05_dom",
+  "version": "1.0.0",
+  "description": "```\r npx tsc --init --rootdir src --outdir dist\r ```",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}

@@ -14,3 +14,6 @@ function formatCommandLine(input: string | string[]) {
 
 console.log(formatCommandLine('あいう'));
 console.log(formatCommandLine(['A', 'B', 'C']));
+
+// 配列で、number or stringにしたい場合はこうする。
+const stuff: (number | string)[] = [1, 2, 'aaa'];
