@@ -1,0 +1,15 @@
+{
+  "name": "10_module",
+  "version": "1.0.0",
+  "description": "```\r npx tsc --init --rootdir src --outdir lib\r ```",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
