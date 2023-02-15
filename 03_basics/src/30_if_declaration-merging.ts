@@ -1,4 +1,4 @@
-import { Request } from './21_request';
+import { Request } from './30_request';
 
 // Requestのinterfaceがマージされている。
 const req: Request = {
