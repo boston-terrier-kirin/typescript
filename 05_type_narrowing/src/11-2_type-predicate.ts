@@ -35,3 +35,5 @@ function area(shape: Shape) {
     return shape.width * shape.height;
   }
 }
+
+export {};
