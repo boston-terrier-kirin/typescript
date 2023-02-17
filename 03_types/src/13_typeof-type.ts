@@ -12,3 +12,5 @@ const unit: Point = {
   y: center.y + 1,
   z: center.z + 1,
 };
+
+export {};
