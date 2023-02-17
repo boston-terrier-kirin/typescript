@@ -7,10 +7,12 @@
   //   fr: string;
   //   it: string;
   //   es: string;
+  // } & {
+  //  id: number;
   // }
   type Butterfly = {
     [key in SystemSupportLanguage]: string;
-  };
+  } & { id: number };
 }
 
 {
