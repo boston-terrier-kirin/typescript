@@ -1,4 +1,3 @@
-// 解決策１
 interface Header {
   // keyは文字通りDataのkeyになっているので、keyof Dataにするのが正しい。
   key: keyof Data;
@@ -11,13 +10,20 @@ interface Data {
   job: string;
 }
 
-const header: Header = { key: 'name', label: 'Name' };
+const headers: Header[] = [
+  { key: 'name', label: 'Name' },
+  { key: 'age', label: 'Age' },
+  { key: 'job', label: 'Job' },
+];
+
 const data: Data = {
   name: 'James',
   age: '24',
   job: 'Designer',
 };
 
-data[header.key];
+for (const header of headers) {
+  console.log(data[header.key]);
+}
 
 export {};

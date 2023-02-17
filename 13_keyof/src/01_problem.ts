@@ -1,4 +1,3 @@
-// ■問題が発生したコード
 interface Header {
   key: string;
   label: string;
@@ -10,16 +9,23 @@ interface Data {
   job: string;
 }
 
-// headerを定義して、headerのキーからdataの値をGETしたい。
-const header: Header = { key: 'name', label: 'Name' };
+const headers: Header[] = [
+  { key: 'name', label: 'Name' },
+  { key: 'age', label: 'Age' },
+  { key: 'job', label: 'Job' },
+];
+
 const data: Data = {
   name: 'James',
   age: '24',
   job: 'Designer',
 };
 
-// ここでコンパイルエラーになる
-// Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'Data'.
-data[header.key];
+// headerのkeyを使って、dataから動的に値をGETしたかった。
+for (const header of headers) {
+  // ここでコンパイルエラーになる
+  // Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'Data'.
+  console.log(data[header.key]);
+}
 
 export {};
