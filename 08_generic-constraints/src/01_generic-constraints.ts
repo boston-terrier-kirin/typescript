@@ -1,17 +1,18 @@
-class Car {
+interface Printable {
+  print(): void;
+}
+
+class Car implements Printable {
   print() {
     console.log('Car');
   }
 }
 
 class House {
+  // printがあれば、implementsしていなくてもOK。
   print() {
     console.log('House');
   }
-}
-
-interface Printable {
-  print(): void;
 }
 
 // T extends Printable が generic constraints で、Tに制約を持たせることができる。
@@ -21,3 +22,9 @@ function printAnything<T extends Printable>(arr: T[]) {
     arr[i].print();
   }
 }
+
+const test = [];
+test.push(new Car());
+test.push(new House());
+
+printAnything<Printable>(test);

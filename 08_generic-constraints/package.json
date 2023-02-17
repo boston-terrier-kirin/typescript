@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ts": "ts-node ./src/Attributes.ts"
+    "ts": "ts-node ./src/generic-constraints.ts"
   },
   "keywords": [],
   "author": "",

@@ -3,10 +3,10 @@ type Person = {
   age: number;
 };
 
-const log = <T>(obj: T, key: keyof T) => {
+function log<T>(obj: T, key: keyof T) {
   const value = obj[key];
   console.log('💨', value);
-};
+}
 
 const john: Person = {
   name: 'John',
