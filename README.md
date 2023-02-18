@@ -1,5 +1,3 @@
-# Typescript
-
 # Typescript Cheatsheet
 
 [Developer Note](https://developer-note-cef6b.web.app/)
