@@ -34,7 +34,7 @@
 **[`definite-assignment`](#definite-assignment)**
 **[`const-assertion`](#const-assertion)**
 
-# types
+# [types](https://github.com/boston-terrier-kirin/typescript/tree/main/03_types/src)
 
 ## instance-types
 
@@ -413,7 +413,7 @@ state.update({
 });
 ```
 
-# type-narrowing
+# [type-narrowing](https://github.com/boston-terrier-kirin/typescript/tree/main/05_type_narrowing/src)
 
 ## type-narrowing
 
