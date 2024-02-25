@@ -27,7 +27,7 @@
 **[`truthiness-guards`](#truthiness-guards)**
 **[`typeof-guards`](#typeof-guards)**
 **[`discriminated-unions`](#discriminated-unions)**
-**[`type-predicate`](#ype-predicate)**
+**[`type-predicate`](#type-predicate)**
 **[`assertion-function`](#assertion-function)**
 **[`optional-modifier`](#optional-modifier)**
 **[`non-null-assertion`](#non-null-assertion)**

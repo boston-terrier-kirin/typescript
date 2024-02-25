@@ -1,0 +1,32 @@
+@token = 22060ac209e0c2c5a854
+
+POST http://localhost:3000/reservation
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+    "user": "user1",
+    "startDate": "startDate",
+    "endDate":"endDate",
+    "room": "someRoom"
+}
+###
+
+GET http://localhost:3000/reservation/30a1086ef4193f128c81
+Authorization: {{token}}
+###
+
+GET http://localhost:3000/reservation/all
+Authorization: {{token}}
+###
+
+PUT http://localhost:3000/reservation/0a581df56ea95a2fad52
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+    "room": "someOtherRoom",
+    "user": "user2"
+
+}
+###
