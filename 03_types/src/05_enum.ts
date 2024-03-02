@@ -1,5 +1,7 @@
 enum Roles {
+  /** ADMINの場合、XX権限あり */
   ADMIN = 'admin',
+  /** USERはXXができるだけ。 */
   USER = 'user',
 }
 
@@ -8,6 +10,13 @@ type Person = {
   email: string;
   password: string;
   role: Roles;
+};
+
+const u: Person = {
+  name: 'John',
+  email: 'john@test.com',
+  password: '123456',
+  role: Roles.USER,
 };
 
 const p: Person = {

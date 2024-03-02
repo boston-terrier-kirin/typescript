@@ -13,4 +13,5 @@ const num = +leet;
 const num2 = leet as unknown as number;
 
 // tsは実行時には影響しないので、ts自体ではcastはなく、+とかで明示的にcastする必要がある。
+// castというのは実行時の型変換のことなので、tsではtype assertionと呼ぶ。
 // type assertionはcastではなく、あくまでコンパイル時に型を伝えるだけ。
