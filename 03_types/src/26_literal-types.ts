@@ -6,3 +6,10 @@ function move(direction: Direction) {
 
 move('East');
 move('West');
+/////
+
+type Level = 'Junior' | 'Senior';
+type Positon = 'Programmer' | 'Manager';
+
+// "Junior Programmer" | "Junior Manager" | "Senior Programmer" | "Senior Manager"
+type LevelPosition = `${Level} ${Positon}`;
