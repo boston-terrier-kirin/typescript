@@ -20,10 +20,9 @@ function reverse_v1(word: string | string[]) {
 console.log('💨💨💨💨💨💨');
 /**
  * overloadは、パラメータが2種類、リターンが2種類あるような場合で有効。
- * 例) reduxのActionで、typeのみの場合とtype+payloadの場合の2種類ある場合
+ * 本体とは別に、functionの宣言を作ってしまう。
  */
 function reverse(word: string): string;
-
 function reverse(word: string[]): string[];
 
 // 本体はここで、両方のケースに対応させる。

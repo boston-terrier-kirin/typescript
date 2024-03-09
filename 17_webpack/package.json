@@ -1,0 +1,26 @@
+{
+  "name": "17_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-node": "webpack --config webpack.config.node.ts",
+    "build-web": "webpack --config webpack.config.web.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/webpack": "^5.28.5",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.8",
+    "uuid": "^9.0.1"
+  }
+}

@@ -1,13 +1,13 @@
 # tsconfig 作成
 
 ```
-npx tsc --init --rootdir src --outdir lib
+npx tsc --init
 ```
 
 # package.json から実行
 
 ```
-npm run ts
+npm run build
 ```
 
 # コマンドプロンプトから実行
